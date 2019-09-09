@@ -13,7 +13,7 @@ blevel() {
      
          fi
          
-        password="$(grep "$regex" ~/Aevkeqi/dktgiwtlxgt/Dcpfkv.md | cut -c 4-40)";
+        password="$(grep "^$regex" ~/Aevkeqi/dktgiwtlxgt/Dcpfkv.md | cut -c 4-40)";
     }
 
     catPassword $1;
